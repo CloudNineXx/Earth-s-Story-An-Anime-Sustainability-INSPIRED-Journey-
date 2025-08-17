@@ -1,193 +1,300 @@
-# 🌱 Earth's Story - A Sustainable Future
+# 🌍 Earth's Story - A Sustainable Future
 
-A breathtaking, anime-inspired sustainability website that tells the story of our planet through 10 immersive, cinematic slides. Built with pure HTML, CSS, and vanilla JavaScript for maximum performance and compatibility.
+An immersive, anime-inspired multimedia experience that tells Earth's sustainability story through 11 cinematic slides with synchronized audio narration. Built with pure HTML, CSS, and vanilla JavaScript, featuring Adobe Firefly-generated backgrounds and custom audio tracks.
 
-## ✨ Features
+## ✨ Core Features
 
-### 🎬 Cinematic Experience
-- **10 Full-Screen Slides** - Each telling a chapter of Earth's sustainability story
-- **Scroll Snap Navigation** - Smooth, buttery vertical scrolling with mandatory snap points
-- **Parallax Effects** - Multi-layered depth with foreground, midground, and background elements
-- **Anime-Inspired Visuals** - Cherry blossoms, forests, cities, and utopian futures
+### 🎵 Immersive Audio Experience
+
+- **Background Music** - Continuous ambient soundtrack throughout the journey
+- **Slide Narration** - 11 unique audio tracks synchronized with each slide
+- **Audio Controls** - Interactive control panel with:
+  - Background music toggle
+  - Slide audio toggle
+  - Volume slider with independent control
+  - Hide/show controls option
+  - Smooth fade in/out transitions
+- **Smart Audio Management** - Automatic pause on final slide
 
 ### 🎨 Visual Excellence
-- **Gradient Typography** - Cinematic, bold headings with animated color shifts
-- **Floating Elements** - Dynamic petals, fireflies, birds, and atmospheric effects
-- **Responsive Design** - Optimized for desktop, tablet, and mobile devices
-- **High-Performance Animations** - 60fps smooth animations with performance optimizations
 
-### 🎮 Interactive Features
-- **Navigation Dots** - Right-side navigation with visual feedback
-- **Keyboard Controls** - Arrow keys, spacebar, home/end navigation
-- **Touch Support** - Swipe gestures for mobile devices
-- **Smooth Scrolling** - Custom easing functions for cinematic flow
+- **11 Anime-Inspired Backgrounds** - Created with Adobe Firefly AI
+- **Animated Wildlife** - Flying birds with varied speeds and paths
+- **Moving Grass Animation** - Dynamic foreground elements
+- **Custom Star Cursor** - Glowing, interactive cursor effect
+- **Parallax Scrolling** - Multi-layer depth perception
+- **Cinematic Typography** - Neon glow effects with Orbitron font
 
-### 📱 Responsive & Accessible
-- **Mobile-First Design** - Optimized for all screen sizes
-- **Reduced Motion Support** - Respects user accessibility preferences
-- **High DPI Support** - Crisp visuals on retina displays
-- **Performance Optimized** - Intersection Observer and will-change properties
+### 🎮 Interactive Navigation
 
-## 🚀 Getting Started
+- **Scroll Snap** - Smooth, mandatory vertical slide transitions
+- **Navigation Dots** - Visual progress indicator with active state
+- **Keyboard Support** - Arrow keys, spacebar, Home/End navigation
+- **Touch Gestures** - Mobile swipe support
+- **Smooth Scrolling** - Custom easing for cinematic flow
+- **Auto-hide Scroll Indicator** - Smart UI that disappears after interaction
 
-### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- Local web server (optional, for development)
+## 📁 Project Structure
+
+```
+earth-story/
+│
+├── index.html              # Main HTML structure
+├── style.css              # Styles and animations
+├── script.js              # Interactive functionality
+├── README.md              # Documentation
+│
+├── Images/                # Visual assets
+│   ├── image1.1.jpg      # Slide 1 - Earth's beginning
+│   ├── image2.jpg        # Slide 2 - Life in balance
+│   ├── image3.jpg        # Slide 3 - Environmental change
+│   ├── image4.jpg        # Slide 4 - Earth's crisis
+│   ├── image5.jpg        # Slide 5 - Deaf to cries
+│   ├── image6.jpg        # Slide 6 - Hope begins
+│   ├── image7.png        # Slide 7 - Together we heal
+│   ├── image8.jpg        # Slide 8 - Earth breathes
+│   ├── image9.jpg        # Slide 9 - Tomorrow together
+│   ├── image10.1.jpg     # Slide 10 - It begins with you
+│   ├── image11.jpg       # Slide 11 - Thank you
+│   ├── bird.gif          # Animated bird sprite
+│   └── movinggrass.gif   # Animated grass element
+│
+└── music/                 # Audio assets
+    ├── musicbg.mp3       # Background music loop
+    ├── audio1.mp3        # Slide 1 narration
+    ├── audio2.mp3        # Slide 2 narration
+    ├── audio3.mp3        # Slide 3 narration
+    ├── audio4.mp3        # Slide 4 narration
+    ├── audio5.mp3        # Slide 5 narration
+    ├── audio6.mp3        # Slide 6 narration
+    ├── audio7.mp3        # Slide 7 narration
+    ├── audio8.mp3        # Slide 8 narration
+    ├── audio9.mp3        # Slide 9 narration
+    ├── audio10.mp3       # Slide 10 narration
+    └── audio11.mp3       # Slide 11 narration
+```
+
+## 🎬 Slide Journey
+
+1. **"In the beginning, there was Earth..."** - A cradle of beauty and wonder
+2. **"Life thrived in balance"** - Forests, rivers, and starry skies
+3. **"But something changed..."** - Pollution and deforestation begin
+4. **"...Our Earth Cries Out"** - Climate crisis and melting ice
+5. **"Are we deaf to the Earth's cries?"** - Every choice matters
+6. **"Hope begins with us"** - Individual actions create change
+7. **"Together, we can heal"** - Collective restoration efforts
+8. **"The Earth Breathes Again"** - Signs of renewal
+9. **"Together Towards Tomorrow"** - United in sustainability
+10. **"And... It begins with you"** - Personal call to action
+11. **"Thank You!"** - Closing gratitude
+
+## 🚀 Quick Start
 
 ### Installation
-1. Clone or download the project files
-2. Open `index.html` in your web browser
-3. Or serve locally using a web server:
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   
-   # Using PHP
-   php -S localhost:8000
-   ```
 
-### File Structure
-```
-├── index.html          # Main HTML structure
-├── style.css           # All styles and animations
-├── script.js           # Interactive functionality
-└── README.md           # This documentation
+1. Clone or download the project
+2. Ensure all image and audio files are in their respective folders
+3. Open `index.html` in a modern web browser
+
+### Local Development
+
+```bash
+# Python 3
+python -m http.server 8000
+
+# Node.js
+npx serve .
+
+# Live Server (VS Code)
+# Right-click index.html → "Open with Live Server"
 ```
 
-## 🎯 Slide Storyboard
+## 🎛️ Audio Controls Guide
 
-1. **"Every story begins with a world..."** - Earth's birth in beauty and harmony
-2. **"Life thrived in balance"** - Forests, rivers, and starry skies
-3. **"But something changed"** - Pollution and environmental destruction
-4. **"The Earth is hurting"** - Climate change and melting ice
-5. **"Will we listen?"** - The choice in our hands
-6. **"A spark of hope"** - Individual actions creating change
-7. **"Together we rise"** - Collective action for sustainability
-8. **"The Earth heals"** - Renewal and restoration
-9. **"A brighter tomorrow"** - Harmony between progress and nature
-10. **"It begins with you"** - Personal responsibility and change
+### Control Panel Features
 
-## 🛠️ Technical Implementation
+- **🎵 Button** - Toggle background music on/off
+- **🔊 Button** - Toggle slide narration on/off
+- **Volume Slider** - Adjust overall volume (background music plays at 30% of slider value)
+- **✖ Button** - Hide/show the entire control panel
 
-### CSS Features
-- **CSS Grid & Flexbox** - Modern layout techniques
-- **CSS Custom Properties** - Dynamic theming and animations
-- **CSS Animations** - Keyframe-based smooth transitions
-- **Backdrop Filters** - Glassmorphism effects
-- **CSS Clamp** - Responsive typography scaling
+### Audio Behavior
 
-### JavaScript Architecture
-- **ES6 Classes** - Modular, maintainable code structure
-- **Intersection Observer API** - Performance-optimized animations
-- **RequestAnimationFrame** - Smooth 60fps animations
-- **Event Delegation** - Efficient event handling
-- **Touch & Gesture Support** - Mobile-first interactions
+- Audio starts on first user interaction (click, scroll, or keypress)
+- Background music loops continuously
+- Slide audio changes automatically with navigation
+- Smooth fade transitions between audio tracks
+- All audio stops on the final "Thank You" slide
 
-### Performance Optimizations
-- **Will-Change Property** - GPU acceleration hints
-- **Debounced Scroll Events** - Reduced CPU usage
-- **Lazy Animation Loading** - Animations only when visible
-- **Efficient DOM Queries** - Cached selectors and minimal reflows
+## 🎨 Customization Guide
 
-## 🎨 Customization
+### Replacing Images
 
-### Changing Images
-Replace the placeholder images in `index.html`:
+1. Add your images to the `Images/` folder
+2. Update paths in `index.html`:
+
 ```html
-<div class="parallax-bg" style="background-image: url('your-image.jpg')"></div>
+<div
+  class="parallax-bg"
+  style="background-image: url('./Images/your-image.jpg')"
+></div>
 ```
 
-### Modifying Colors
-Update CSS custom properties in `style.css`:
+### Updating Audio
+
+1. Place audio files in the `music/` folder
+2. Update audio elements in `index.html`:
+
+```html
+<audio id="audio-1" class="slide-audio">
+  <source src="./music/your-audio.mp3" type="audio/mpeg" />
+</audio>
+```
+
+### Modifying Text
+
+Edit slide content in `index.html`:
+
+```html
+<h1 class="slide-title">Your Title</h1>
+<p class="slide-text">Your subtitle text</p>
+```
+
+### Adjusting Animation Timing
+
+Modify animation delays in `style.css`:
+
 ```css
-:root {
-    --primary-color: #4ecdc4;
-    --secondary-color: #ff6b6b;
-    --accent-color: #45b7d1;
+.slide-title.animate-in {
+  animation-delay: 0.6s; /* Adjust title entrance timing */
+}
+.slide-text.animate-in {
+  animation-delay: 2s; /* Adjust text entrance timing */
 }
 ```
 
-### Adding New Slides
-1. Copy an existing slide structure in `index.html`
-2. Update the content and floating elements
-3. Add corresponding CSS animations
-4. Update navigation dots
+## 🐦 Animated Elements
 
-### Custom Animations
-Add new keyframe animations in `style.css`:
+### Birds Configuration
+
+- **Slides with birds**: 1, 2, 4, 5
+- **Bird count per slide**: 3-5 birds
+- **Animation duration**: 18-25 seconds per cycle
+- **Flight path**: Left to right across screen
+
+### Adding/Removing Birds
+
+In `index.html`, add bird elements to any slide:
+
+```html
+<img
+  id="bird-{slide}-{number}"
+  src="./Images/bird.gif"
+  alt="A flying bird"
+  class="animated-bird"
+/>
+```
+
+Then position in `style.css`:
+
 ```css
-@keyframes yourAnimation {
-    0% { /* start state */ }
-    100% { /* end state */ }
+#bird-{slide}-{number} {
+  top: 15%; /* Vertical position */
+  animation-duration: 20s; /* Flight speed */
 }
 ```
 
-## 🌟 Easter Eggs
+## 🔧 Technical Details
 
-### Konami Code
-Enter `↑↑↓↓←→←→BA` to activate rainbow mode!
+### Browser Compatibility
 
-### Console Messages
-Check the browser console for hidden messages and debugging info.
+- Chrome 60+ ✅
+- Firefox 55+ ✅
+- Safari 12+ ✅
+- Edge 79+ ✅
+- Mobile browsers ✅
 
-## 📱 Browser Support
+### Performance Features
 
-- **Chrome** 60+ ✅
-- **Firefox** 55+ ✅
-- **Safari** 12+ ✅
-- **Edge** 79+ ✅
-- **Mobile Browsers** ✅
+- Intersection Observer for efficient animations
+- Will-change CSS property for GPU acceleration
+- Debounced scroll events
+- Optimized animation frame requests
+- Lazy-loaded animations (only when visible)
 
-## 🚀 Performance
+### Responsive Breakpoints
 
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **First Contentful Paint**: < 1.5s
-- **Largest Contentful Paint**: < 2.5s
-- **Cumulative Layout Shift**: < 0.1
-- **First Input Delay**: < 100ms
+- Desktop: Full experience with custom cursor
+- Tablet (≤768px): Adjusted controls, hidden cursor
+- Mobile (≤480px): Vertical audio controls, smaller text
 
-## 🔧 Development
+## 📱 Mobile Experience
 
-### Code Style
-- **HTML**: Semantic, accessible markup
-- **CSS**: BEM methodology, organized by component
-- **JavaScript**: ES6+, class-based architecture
+### Touch Gestures
 
-### Debugging
-- Open browser console for detailed logs
-- Use `window.sustainabilityWebsite` for debugging
-- Check Network tab for image loading issues
+- **Swipe Up** - Next slide
+- **Swipe Down** - Previous slide
+- **Tap Navigation Dots** - Jump to specific slide
 
-### Testing
-- Test on multiple devices and screen sizes
-- Verify touch/swipe functionality on mobile
-- Check keyboard navigation accessibility
-- Test with reduced motion preferences
+### Mobile Optimizations
+
+- Custom cursor disabled
+- Simplified audio controls
+- Responsive typography scaling
+- Optimized animations for performance
+
+## 🎯 Keyboard Shortcuts
+
+- **↓ / →** / **Space** - Next slide
+- **↑ / ←** - Previous slide
+- **Home** - First slide
+- **End** - Last slide
+
+## 🛠️ Troubleshooting
+
+### Audio Not Playing?
+
+- Ensure audio files are in `music/` folder
+- Check file names match HTML references
+- Try interacting with the page first (browser autoplay policy)
+- Verify audio format is MP3
+
+### Images Not Loading?
+
+- Check image paths in HTML
+- Ensure images are in `Images/` folder
+- Verify file extensions (.jpg, .png, .gif)
+
+### Animations Stuttering?
+
+- Close other browser tabs
+- Check GPU acceleration is enabled
+- Try reducing animation complexity on older devices
+
+## 🌱 Environmental Message
+
+This project aims to inspire environmental consciousness through immersive storytelling. Each slide represents a chapter in Earth's story - from pristine beginnings through crisis to hope and renewal. The message is clear: sustainability begins with individual action but requires collective effort.
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
 
-## 🤝 Contributing
+## 🤝 Credits
 
-Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+- **Visuals**: Adobe Firefly AI-generated anime backgrounds
+- **Typography**: Google Fonts (Orbitron, Quicksand)
+- **Concept**: Environmental sustainability awareness
+- **Development**: Pure vanilla web technologies
 
-## 🙏 Acknowledgments
+## 💚 Contributing
 
-- **Picsum Photos** - Placeholder images
-- **Google Fonts** - Typography (Orbitron, Quicksand)
-- **CSS Grid & Flexbox** - Modern layout techniques
-- **Intersection Observer API** - Performance optimization
+Contributions are welcome! Feel free to:
 
-## 🌍 Impact
-
-This website aims to inspire environmental consciousness and sustainable action through immersive storytelling and beautiful design. Every small step towards sustainability matters, and together we can create a brighter future for our planet.
+- Report bugs or issues
+- Suggest new features
+- Submit pull requests
+- Share your customized versions
 
 ---
 
-**Built with ❤️ for a sustainable future**
-
-*"Sustainability is love for all life. Be the change."*
+**"Sustainability is love for all life. Let your actions today shape the world of tomorrow!"** 🌍✨
