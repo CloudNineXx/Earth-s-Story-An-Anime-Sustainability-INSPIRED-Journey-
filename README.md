@@ -6,22 +6,21 @@ An immersive, anime-inspired multimedia experience that tells Earth's sustainabi
 
 ### 🎵 Immersive Audio Experience
 
-- **Background Music** - Continuous ambient soundtrack throughout the journey
+- **Background Music** - Continuous soundtrack throughout the journey
 - **Slide Narration** - 11 unique audio tracks synchronized with each slide
-- **Audio Controls** - Interactive control panel with:
+- **Audio Controls** - Interactive control panel(top left) with:
   - Background music toggle
   - Slide audio toggle
   - Volume slider with independent control
   - Hide/show controls option
   - Smooth fade in/out transitions
-- **Smart Audio Management** - Automatic pause on final slide
 
-### 🎨 Visual Excellence
+### 🎨 Top Visual Experience
 
-- **11 Anime-Inspired Backgrounds** - Created with Adobe Firefly AI
-- **Animated Wildlife** - Flying birds with varied speeds and paths
-- **Moving Grass Animation** - Dynamic foreground elements
-- **Custom Star Cursor** - Glowing, interactive cursor effect
+- **11 Anime-Inspired Backgrounds** - Created with Adobe Firefly AI (my fav goto)
+- **Animated Wildlife** - Flying birds(gif) with varied speeds and paths
+- **Moving Grass Animation** - Grass(gif) Dynamic foreground elements
+- **Custom Cursor** - Glowing, interactive cursor effect
 - **Parallax Scrolling** - Multi-layer depth perception
 - **Cinematic Typography** - Neon glow effects with Orbitron font
 
@@ -32,7 +31,7 @@ An immersive, anime-inspired multimedia experience that tells Earth's sustainabi
 - **Keyboard Support** - Arrow keys, spacebar, Home/End navigation
 - **Touch Gestures** - Mobile swipe support
 - **Smooth Scrolling** - Custom easing for cinematic flow
-- **Auto-hide Scroll Indicator** - Smart UI that disappears after interaction
+- **Auto-hide Scroll Indicator(at the bottom of the screen)** - Smart UI that disappears after interaction
 
 ## 📁 Project Structure
 
@@ -74,20 +73,6 @@ earth-story/
     └── audio11.mp3       # Slide 11 narration
 ```
 
-## 🎬 Slide Journey
-
-1. **"In the beginning, there was Earth..."** - A cradle of beauty and wonder
-2. **"Life thrived in balance"** - Forests, rivers, and starry skies
-3. **"But something changed..."** - Pollution and deforestation begin
-4. **"...Our Earth Cries Out"** - Climate crisis and melting ice
-5. **"Are we deaf to the Earth's cries?"** - Every choice matters
-6. **"Hope begins with us"** - Individual actions create change
-7. **"Together, we can heal"** - Collective restoration efforts
-8. **"The Earth Breathes Again"** - Signs of renewal
-9. **"Together Towards Tomorrow"** - United in sustainability
-10. **"And... It begins with you"** - Personal call to action
-11. **"Thank You!"** - Closing gratitude
-
 ## 🚀 Quick Start
 
 ### Installation
@@ -124,9 +109,10 @@ npx serve .
 - Background music loops continuously
 - Slide audio changes automatically with navigation
 - Smooth fade transitions between audio tracks
-- All audio stops on the final "Thank You" slide
 
 ## 🎨 Customization Guide
+
+- For friends who downloaded my codes and want to use their own images or make other customisations!! :D
 
 ### Replacing Images
 
@@ -275,10 +261,6 @@ Then position in `style.css`:
 
 This project aims to inspire environmental consciousness through immersive storytelling. Each slide represents a chapter in Earth's story - from pristine beginnings through crisis to hope and renewal. The message is clear: sustainability begins with individual action but requires collective effort.
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ## 🤝 Credits
 
 - **Visuals**: Adobe Firefly AI-generated anime backgrounds
@@ -286,14 +268,7 @@ This project is open source and available under the MIT License.
 - **Concept**: Environmental sustainability awareness
 - **Development**: Pure vanilla web technologies
 
-## 💚 Contributing
-
-Contributions are welcome! Feel free to:
-
-- Report bugs or issues
-- Suggest new features
-- Submit pull requests
-- Share your customized versions
+Note: this was generated and formatted by AI for ease of reading by friends and hackathon judges :)
 
 ---
 
