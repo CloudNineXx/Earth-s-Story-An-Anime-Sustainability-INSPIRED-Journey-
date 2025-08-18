@@ -102,7 +102,7 @@ npx serve .
 - **🎶 Button** - Toggle background music on/off
 - **🔊 Button** - Toggle slide narration on/off
 - **Volume Slider** - Adjust overall volume (background music plays at 30% of slider value)
-- **🎵 Button** - Hide/show the entire control panel
+
 
 ### Audio Behavior
 
@@ -274,3 +274,4 @@ Note: this was generated and formatted by AI for ease of reading by friends and 
 ---
 
 **"Sustainability is love for all life. Let your actions today shape the world of tomorrow!"** 🌍✨
+
