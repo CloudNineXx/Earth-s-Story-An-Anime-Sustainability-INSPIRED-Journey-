@@ -98,10 +98,11 @@ npx serve .
 
 ### Control Panel Features
 
-- **🎵 Button** - Toggle background music on/off
+- **🎵 Button** - Hide/show the entire control panel
+- **🎶 Button** - Toggle background music on/off
 - **🔊 Button** - Toggle slide narration on/off
 - **Volume Slider** - Adjust overall volume (background music plays at 30% of slider value)
-- **✖ Button** - Hide/show the entire control panel
+- **🎵 Button** - Hide/show the entire control panel
 
 ### Audio Behavior
 
