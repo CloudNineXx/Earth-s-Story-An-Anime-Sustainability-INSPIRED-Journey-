@@ -126,7 +126,7 @@ npx serve .
 
 ### Audio Behavior
 
-- Audio starts on first user interaction (click, scroll, or keypress)
+- Audio starts on first user interaction (click, scroll, or keypress) - implemented due to certain user's browser limitations :)
 - Background music loops continuously
 - Slide audio changes automatically with navigation
 - Smooth fade transitions between audio tracks
@@ -240,5 +240,6 @@ This hackathon project aims to inspire environmental consciousness through immer
 ---
 
 **"Sustainability is love for all life. Let your actions today shape the world of tomorrow!"** 🌍✨
+
 
 
