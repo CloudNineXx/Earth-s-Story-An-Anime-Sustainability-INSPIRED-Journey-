@@ -233,6 +233,8 @@ This hackathon project aims to inspire environmental consciousness through immer
 ## 🤝 Credits
 
 - **Visuals**: Adobe Firefly AI-generated anime backgrounds
+- **Audio Narrator**: ElevenLabs
+- **emotional background music**: Suno
 - **Typography**: Google Fonts (Orbitron, Quicksand)
 - **Concept**: Environmental sustainability awareness
 - **Development**: Pure vanilla web technologies
@@ -240,6 +242,7 @@ This hackathon project aims to inspire environmental consciousness through immer
 ---
 
 **"Sustainability is love for all life. Let your actions today shape the world of tomorrow!"** 🌍✨
+
 
 
 
