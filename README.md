@@ -2,7 +2,21 @@
 
 An immersive, anime-inspired multimedia experience that tells Earth's sustainability story through 11 cinematic slides with synchronized audio narration. Built with pure HTML, CSS, and vanilla JavaScript, featuring Adobe Firefly-generated backgrounds and custom audio tracks.
 
-## ✨ Core Features
+## ✨Features
+
+- **Interactive Storytelling**: 11 slides telling the story of Earth's environmental journey
+- **Audio Narration**: Individual audio tracks for each slide with background music
+- **Autoplay Mode**: Automatic progression through slides synchronized with audio
+- **Parallax Effects**: Smooth scrolling parallax backgrounds for immersive experience
+- **Custom Animations**: Flying birds, moving grass, and entrance animations
+- **Multiple Navigation Methods**:
+  - Keyboard navigation (Arrow keys, Space, Home, End)
+  - Mouse wheel scrolling
+  - Touch/swipe support for mobile
+  - Navigation dots
+- **Responsive Design**: Fully responsive for desktop, tablet, and mobile devices
+- **Custom Cursor**: Interactive star-themed cursor for desktop
+
 
 ### 🎵 Immersive Audio Experience
 
@@ -15,7 +29,7 @@ An immersive, anime-inspired multimedia experience that tells Earth's sustainabi
   - Hide/show controls option
   - Smooth fade in/out transitions
 
-### 🎨 Top Visual Experience
+### 🎨 Visual Experience
 
 - **11 Anime-Inspired Backgrounds** - Created with Adobe Firefly AI (my fav goto)
 - **Animated Wildlife** - Flying birds(gif) with varied speeds and paths
@@ -40,7 +54,13 @@ earth-story/
 │
 ├── index.html              # Main HTML structure
 ├── style.css              # Styles and animations
-├── script.js              # Interactive functionality
+├── js/                    # JavaScript modules
+│   ├── main.js           # Main application entry point
+│   ├── audioController.js    # Audio management
+│   ├── autoplayController.js # Autoplay functionality
+│   ├── navigationController.js # Navigation handling
+│   └── visualEffectsController.js # Visual effects & animations
+│
 ├── README.md              # Documentation
 │
 ├── Images/                # Visual assets
@@ -147,18 +167,6 @@ Edit slide content in `index.html`:
 <p class="slide-text">Your subtitle text</p>
 ```
 
-### Adjusting Animation Timing
-
-Modify animation delays in `style.css`:
-
-```css
-.slide-title.animate-in {
-  animation-delay: 0.6s; /* Adjust title entrance timing */
-}
-.slide-text.animate-in {
-  animation-delay: 2s; /* Adjust text entrance timing */
-}
-```
 
 ## 🐦 Animated Elements
 
@@ -169,51 +177,7 @@ Modify animation delays in `style.css`:
 - **Animation duration**: 18-25 seconds per cycle
 - **Flight path**: Left to right across screen
 
-### Adding/Removing Birds
-
-In `index.html`, add bird elements to any slide:
-
-```html
-<img
-  id="bird-{slide}-{number}"
-  src="./Images/bird.gif"
-  alt="A flying bird"
-  class="animated-bird"
-/>
-```
-
-Then position in `style.css`:
-
-```css
-#bird-{slide}-{number} {
-  top: 15%; /* Vertical position */
-  animation-duration: 20s; /* Flight speed */
-}
-```
-
 ## 🔧 Technical Details
-
-### Browser Compatibility
-
-- Chrome 60+ ✅
-- Firefox 55+ ✅
-- Safari 12+ ✅
-- Edge 79+ ✅
-- Mobile browsers ✅
-
-### Performance Features
-
-- Intersection Observer for efficient animations
-- Will-change CSS property for GPU acceleration
-- Debounced scroll events
-- Optimized animation frame requests
-- Lazy-loaded animations (only when visible)
-
-### Responsive Breakpoints
-
-- Desktop: Full experience with custom cursor
-- Tablet (≤768px): Adjusted controls, hidden cursor
-- Mobile (≤480px): Vertical audio controls, smaller text
 
 ## 📱 Mobile Experience
 
@@ -257,10 +221,14 @@ Then position in `style.css`:
 - Close other browser tabs
 - Check GPU acceleration is enabled
 - Try reducing animation complexity on older devices
+- 
+- ## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ## 🌱 Environmental Message
 
-This project aims to inspire environmental consciousness through immersive storytelling. Each slide represents a chapter in Earth's story - from pristine beginnings through crisis to hope and renewal. The message is clear: sustainability begins with individual action but requires collective effort.
+This hackathon project aims to inspire environmental consciousness through immersive storytelling. Each slide represents a chapter in Earth's story - from pristine beginnings through crisis to hope and renewal. The message is clear: sustainability begins with individual action but requires collective effort.
 
 ## 🤝 Credits
 
@@ -269,9 +237,8 @@ This project aims to inspire environmental consciousness through immersive story
 - **Concept**: Environmental sustainability awareness
 - **Development**: Pure vanilla web technologies
 
-Note: this was generated and formatted by AI for ease of reading by friends and hackathon judges :)
-
 ---
 
 **"Sustainability is love for all life. Let your actions today shape the world of tomorrow!"** 🌍✨
+
 
