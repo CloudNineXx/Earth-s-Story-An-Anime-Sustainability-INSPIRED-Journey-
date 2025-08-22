@@ -224,7 +224,8 @@ Edit slide content in `index.html`:
 - 
 - ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source that allows others to freely use, modify and distribute the code with the following conditions:
+- include credit to the original owner/creator of this webpage :)
 
 ## 🌱 Environmental Message
 
@@ -242,6 +243,7 @@ This hackathon project aims to inspire environmental consciousness through immer
 ---
 
 **"Sustainability is love for all life. Let your actions today shape the world of tomorrow!"** 🌍✨
+
 
 
 
